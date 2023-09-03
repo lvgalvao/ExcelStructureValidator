@@ -6,6 +6,37 @@ O Excel Structure Validator é um projeto Python destinado a validar a estrutura
 
 Antes de iniciar avalie os arquivos em excel dentro da pasta data/input e data/modelo para entender o comportamento do projeto. Para facilitar, criei arquivos simples com 4 até 6 colunas e poucas linhas, porém o conceito se aplica a qualquer modelo e/ou quantidade de colunas/linhas.
 
+### Modelo
+
+O arquivo modelo é o arquivo Excel que deve seguir como template. Ele contém a estrutura que os arquivos Excel recebidos devem seguir. Ele deve ser colocado no diretório `data/modelo/`.
+
+![Modelo](./static/pic/modelo.png)
+
+### Arquivo 1
+
+O arquivo 1 é um arquivo Excel que contém a estrutura correta.
+![Arquivo 1](./static/pic/arquivo_1.png)
+
+### Arquivo 2
+
+O arquivo 2 é um arquivo Excel que contém a estrutura incorreta, apresenta uma coluna a menos.
+![Arquivo 2](./static/pic/arquivo_2.png)
+
+### Arquivo 3
+
+O arquivo 3 é um arquivo Excel que contém a estrutura incorreta, apresenta uma coluna a mais.
+![Arquivo 3](./static/pic/arquivo_4.png)
+
+### Arquivo 4
+
+O arquivo 4 é um arquivo Excel que contém a estrutura incorreta, a ordem das colunas está diferente.
+![Arquivo 4](./static/pic/arquivo_4.png)
+
+### Arquivo 5
+
+O arquivo 5 é um arquivo Excel que contém a estrutura incorreta, o número de linhas está diferente. A linha 12 foi adicionada.
+![Arquivo 5](./static/pic/arquivo_5.png)
+
 ### Antes de rodar o script
 
 ![Antes](./static/pic/antes.png)
@@ -85,7 +116,13 @@ ExcelStructureValidator/
 3. Execute o script `pipeline.py` para iniciar o processo de validação:
     
     ```bash
-    python app/pipeline.py
+    python3 -m app.pipeline
+    ```
+
+    ou se você estiver usando Poetry:
+
+    ```bash
+    task run
     ```
     
 4. Verifique os logs e os arquivos Excel movidos para os diretórios `output_corretos` ou `output_revisar`.
