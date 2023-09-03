@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "excelstructurevalidator"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.0.3"
+openpyxl = "^3.1.2"
+taskipy = "^1.12.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+lint = "blue . && isort ."
+run = "python3 -m app.pipeline"
