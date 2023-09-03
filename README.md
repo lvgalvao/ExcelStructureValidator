@@ -32,7 +32,7 @@ O arquivo 2 é um arquivo Excel que contém a estrutura incorreta, apresenta uma
 ### Arquivo 3
 
 O arquivo 3 é um arquivo Excel que contém a estrutura incorreta, apresenta uma coluna a mais.
-![Arquivo 3](./static/pic/arquivo_4.png)
+![Arquivo 3](./static/pic/arquivo_3.png)
 
 ### Arquivo 4
 
