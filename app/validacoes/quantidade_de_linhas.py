@@ -1,7 +1,7 @@
+# Arquivo quantidade_de_linhas.py
+
 from typing import Tuple
-
 from pandas import DataFrame
-
 
 def validar_quantidade_de_linhas(
     excel_modelo: DataFrame, arquivo: DataFrame

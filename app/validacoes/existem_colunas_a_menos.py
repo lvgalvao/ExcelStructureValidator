@@ -1,7 +1,7 @@
+# Arquivo existem_colunas_a_menos.py
+
 from typing import Tuple
-
 from pandas import DataFrame
-
 
 def validar_se_existem_colunas_a_menos(
     excel_modelo: DataFrame, arquivo: DataFrame
