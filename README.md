@@ -6,6 +6,13 @@ O Excel Structure Validator é um projeto Python destinado a validar a estrutura
 
 Antes de iniciar avalie os arquivos em excel dentro da pasta data/input e data/modelo para entender o comportamento do projeto. Para facilitar, criei arquivos simples com 4 até 6 colunas e poucas linhas, porém o conceito se aplica a qualquer modelo e/ou quantidade de colunas/linhas.
 
+## Funcionalidades
+
+* Valida a quantidade de linhas
+* Verifica a existência de colunas a mais ou a menos
+* Compara a ordem das colunas com o arquivo modelo
+* Valida os tipos de dados das colunas
+
 ### Modelo
 
 O arquivo modelo é o arquivo Excel que deve seguir como template. Ele contém a estrutura que os arquivos Excel recebidos devem seguir. Ele deve ser colocado no diretório `data/modelo/`.
@@ -35,6 +42,7 @@ O arquivo 4 é um arquivo Excel que contém a estrutura incorreta, a ordem das c
 ### Arquivo 5
 
 O arquivo 5 é um arquivo Excel que contém a estrutura incorreta, o número de linhas está diferente. A linha 12 foi adicionada.
+
 ![Arquivo 5](./static/pic/arquivo_5.png)
 
 ### Antes de rodar o script
@@ -127,13 +135,6 @@ ExcelStructureValidator/
     
 4. Verifique os logs e os arquivos Excel movidos para os diretórios `output_corretos` ou `output_revisar`.
     
-
-## Funcionalidades
-
-* Valida a quantidade de linhas
-* Verifica a existência de colunas a mais ou a menos
-* Compara a ordem das colunas com o arquivo modelo
-* Valida os tipos de dados das colunas
 
 ## Logs
 
