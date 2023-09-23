@@ -79,41 +79,51 @@ O arquivo 5 é um arquivo Excel que contém a estrutura incorreta, o número de 
     
 2. Navegue até o diretório do projeto e instale as dependências usando poetry:
     
-    ```bash
-    poetry install
-    ```
+```bash
+poetry install
+```
     
 
 Para ativar o ambiente virtual do projeto:
 
 ```go
-```bash
 poetry shell
-```
 ```
 
 ## Estrutura do Projeto
 
-```lua
-ExcelStructureValidator/
-|-- app/
-|   |-- pipeline.py
-|   |-- validacoes/
-|   |   |-- __init__.py
-|   |   |-- quantidade_de_linhas.py
-|   |   |-- existem_colunas_a_mais.py
-|   |   |-- ...
-|   |-- config.py
-|-- data/
-|   |-- modelo/
-|   |   |-- excel_modelo.xlsx
-|   |-- input/
-|   |-- output_corretos/
-|   |-- output_revisar/
-|-- pyproject.toml (se você estiver usando Poetry)
-|-- requirements.txt
-|-- README.md
-```
+```bash
+├── README.md
+├── app
+│   ├── __init__.py
+│   ├── config.py
+│   ├── pipeline.py
+│   └── validacoes
+│       ├── __init__.py
+│       ├── colunas_estao_presentes.py
+│       ├── colunas_estao_presentes_na_mesma_ordem.py
+│       ├── existem_colunas_a_mais.py
+│       ├── existem_colunas_a_menos.py
+│       ├── quantidade_de_linhas.py
+│       └── tipos_dados.py
+├── data
+│   ├── input
+│   │   ├── arquivo_recebido_1.xlsx
+│   │   ├── arquivo_recebido_2.xlsx
+│   │   ├── arquivo_recebido_3.xlsx
+│   │   ├── arquivo_recebido_4.xlsx
+│   │   └── arquivo_recebido_5.xlsx
+│   ├── modelo
+│   │   └── arquivo_modelo.xlsx
+│   ├── output_corretos
+│   └── output_revisar
+├── docs
+│   └── index.md
+├── mkdocs.yml
+├── poetry.lock
+├── pyproject.toml
+├── requirements.txt
+``````
 
 ## Uso
 
