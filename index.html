@@ -10,8 +10,6 @@
       
       
       
-        <link rel="next" href="pagina_2/">
-      
       
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.1">
@@ -43,6 +41,8 @@
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -269,15 +269,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fluxos" class="md-nav__link">
-    Fluxos
+  <a href="#fluxo" class="md-nav__link">
+    Fluxo
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrama-de-tabela" class="md-nav__link">
-    Diagrama de tabela
+  <a href="#aplicacao" class="md-nav__link">
+    Aplicação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-modelo" class="md-nav__link">
+    Tabela modelo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validacoes" class="md-nav__link">
+    Validações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.colunas_estao_presentes_na_mesma_ordem.validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem" class="md-nav__link">
+    validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.colunas_estao_presentes.validar_se_todas_as_colunas_estao_presentes" class="md-nav__link">
+    validar_se_todas_as_colunas_estao_presentes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.existem_colunas_a_mais.validar_se_existem_colunas_a_mais" class="md-nav__link">
+    validar_se_existem_colunas_a_mais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.existem_colunas_a_menos.validar_se_existem_colunas_a_menos" class="md-nav__link">
+    validar_se_existem_colunas_a_menos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.quantidade_de_linhas.validar_quantidade_de_linhas" class="md-nav__link">
+    validar_quantidade_de_linhas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.tipos_dados.validar_tipos_dados" class="md-nav__link">
+    validar_tipos_dados
   </a>
   
 </li>
@@ -286,25 +342,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="pagina_2/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Essa é a página 2
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -341,15 +378,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fluxos" class="md-nav__link">
-    Fluxos
+  <a href="#fluxo" class="md-nav__link">
+    Fluxo
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrama-de-tabela" class="md-nav__link">
-    Diagrama de tabela
+  <a href="#aplicacao" class="md-nav__link">
+    Aplicação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-modelo" class="md-nav__link">
+    Tabela modelo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validacoes" class="md-nav__link">
+    Validações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.colunas_estao_presentes_na_mesma_ordem.validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem" class="md-nav__link">
+    validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.colunas_estao_presentes.validar_se_todas_as_colunas_estao_presentes" class="md-nav__link">
+    validar_se_todas_as_colunas_estao_presentes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.existem_colunas_a_mais.validar_se_existem_colunas_a_mais" class="md-nav__link">
+    validar_se_existem_colunas_a_mais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.existem_colunas_a_menos.validar_se_existem_colunas_a_menos" class="md-nav__link">
+    validar_se_existem_colunas_a_menos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.quantidade_de_linhas.validar_quantidade_de_linhas" class="md-nav__link">
+    validar_quantidade_de_linhas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#app.validacoes.tipos_dados.validar_tipos_dados" class="md-nav__link">
+    validar_tipos_dados
   </a>
   
 </li>
@@ -375,39 +468,265 @@
   <h1>Home</h1>
 
 <h2 id="descricao">Descrição</h2>
-<p>O Excel Structure Validator é um projeto Python destinado a validar a estrutura de arquivos Excel. Ele compara arquivos Excel recebidos com um modelo pré-definido para assegurar que os dados cumpram com os padrões estabelecidos. O projeto é ideal para cenários onde a qualidade e a consistência dos dados são críticas para análises subsequentes, como importações para o Power BI, análises de dados, entre outros.</p>
-<p>Antes de iniciar avalie os arquivos em excel dentro da pasta data/input e data/modelo para entender o comportamento do projeto. Para facilitar, criei arquivos simples com 4 até 6 colunas e poucas linhas, porém o conceito se aplica a qualquer modelo e/ou quantidade de colunas/linhas.</p>
-<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">arquivo.py</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">xpto</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Docstring&quot;&quot;&quot;</span>
-    <span class="k">return</span> <span class="kc">True</span>
-</code></pre></div></td></tr></table></div>
-<h2 id="fluxos">Fluxos</h2>
+<p>O Excel Structure Validator é um projeto Python destinado a validar a estrutura de arquivos Excel. Ele compara arquivos Excel recebidos com um modelo pré-definido para assegurar que os dados cumpram com os padrões estabelecidos. </p>
+<h2 id="fluxo">Fluxo</h2>
 <pre class="mermaid"><code>flowchart LR 
-    A[Folder: Input] --&gt;|Check| B(Folder: Modelo)
+    A[Folder: Input] &lt;--&gt;|Compara Schema| B(Folder: Modelo)
     B --&gt; C{Validator}
-    C --&gt;|Schema correto| D[Folder: Output Correto]
-    C --&gt;|Schema incorreto| E[Folder: Output Incorreto]</code></pre>
-<h2 id="diagrama-de-tabela">Diagrama de tabela</h2>
-<pre class="mermaid"><code>classDiagram
-    Pessoa &lt;|-- Eduardo
-    class Pessoa{
-        +String nome
-        +metodo(self): bool
-    }</code></pre>
-<pre class="mermaid"><code>---
-title: Node
----
-flowchart LR
-    id</code></pre>
-<pre class="mermaid"><code>flowchart LR
-    id["This ❤ Unicode"]</code></pre>
-<pre class="mermaid"><code>sequenceDiagram
-    actor Alice
-    actor Bob
-    Alice-&gt;&gt;Bob: Hi Bob
-    Bob-&gt;&gt;Alice: Hi Alice</code></pre>
+    C --&gt;|Arquivo correto| D[Folder: Output Correto] 
+    C --&gt;|Log com detalhes| D[Folder: Output Correto] 
+    C --&gt;|Arquivo incorreto| E[Folder: Output Incorreto]
+    C --&gt;|Log com detalhes| E[Folder: Output Incorreto] </code></pre>
+<h2 id="aplicacao">Aplicação</h2>
+<p>O projeto é ideal para cenários onde a qualidade e a consistência dos dados são críticas para análises subsequentes, como importações para o Power BI, análises de dados, entre outros.</p>
+<p>Antes de iniciar avalie os arquivos em excel dentro da pasta data/input e data/modelo para entender o comportamento do projeto. Para facilitar, criei arquivos simples com 4 até 6 colunas e poucas linhas, porém o conceito se aplica a qualquer modelo e/ou quantidade de colunas/linhas.</p>
+<h2 id="tabela-modelo">Tabela modelo</h2>
+<p>É uma tabela simples, 5 colunas e todas com o dataType do tipo inteiro.</p>
+<table>
+<thead>
+<tr>
+<th>Coluna A</th>
+<th>Coluna B</th>
+<th>Coluna C</th>
+<th>Coluna D</th>
+<th>Coluna E</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>int</td>
+<td>int</td>
+<td>int</td>
+<td>int</td>
+</tr>
+</tbody>
+</table>
+<h2 id="validacoes">Validações</h2>
+<p>São 6 validações que o nosso projeto está configurado</p>
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.colunas_estao_presentes_na_mesma_ordem.validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se as colunas do modelo estão na mesma ordem em relação ao arquivo recebido.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/colunas_estao_presentes_na_mesma_ordem.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_se_todas_as_colunas_estao_presentes_na_mesma_ordem</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se as colunas do modelo estão na mesma ordem em relação ao arquivo recebido.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">excel_modelo</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">equals</span><span class="p">(</span><span class="n">arquivo</span><span class="o">.</span><span class="n">columns</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;As colunas estão na mesma ordem.&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;As colunas não estão na mesma ordem.&#39;</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.colunas_estao_presentes.validar_se_todas_as_colunas_estao_presentes"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se todas as colunas do modelo estão presentes no arquivo recebido.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/colunas_estao_presentes.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_se_todas_as_colunas_estao_presentes</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se todas as colunas do modelo estão presentes no arquivo recebido.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="nb">set</span><span class="p">(</span><span class="n">excel_modelo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">(</span><span class="n">arquivo</span><span class="o">.</span><span class="n">columns</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;Todas as colunas estão presentes.&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;Algumas colunas não estão presentes.&#39;</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.existem_colunas_a_mais.validar_se_existem_colunas_a_mais"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se o arquivo recebido tem colunas a mais em relação ao modelo.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/existem_colunas_a_mais.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_se_existem_colunas_a_mais</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se o arquivo recebido tem colunas a mais em relação ao modelo.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">colunas_a_mais</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">arquivo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">excel_modelo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">colunas_a_mais</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">colunas_a_mais</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.existem_colunas_a_menos.validar_se_existem_colunas_a_menos"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se o arquivo recebido tem colunas a menos em relação ao modelo.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/existem_colunas_a_menos.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_se_existem_colunas_a_menos</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se o arquivo recebido tem colunas a menos em relação ao modelo.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">colunas_a_mais</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">excel_modelo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">arquivo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">colunas_a_mais</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">colunas_a_mais</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.quantidade_de_linhas.validar_quantidade_de_linhas"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se o arquivo recebido tem o mesmo número de linhas em relação ao modelo.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/quantidade_de_linhas.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_quantidade_de_linhas</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se o arquivo recebido tem o mesmo número de linhas em relação ao modelo.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">num_linhas_df1</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">excel_modelo</span><span class="p">)</span>
+    <span class="n">num_linhas_df2</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arquivo</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">num_linhas_df1</span> <span class="o">==</span> <span class="n">num_linhas_df2</span><span class="p">,</span> <span class="n">num_linhas_df2</span> <span class="o">-</span> <span class="n">num_linhas_df1</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.validacoes.tipos_dados.validar_tipos_dados"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Verifica se o arquivo recebido tem os mesmos datatype em relação ao modelo.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>app/validacoes/tipos_dados.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">validar_tipos_dados</span><span class="p">(</span>
+    <span class="n">excel_modelo</span><span class="p">:</span> <span class="n">DataFrame</span><span class="p">,</span> <span class="n">arquivo</span><span class="p">:</span> <span class="n">DataFrame</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Verifica se o arquivo recebido tem os mesmos datatype em relação ao modelo.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">colunas_comuns</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">excel_modelo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span>
+        <span class="nb">set</span><span class="p">(</span><span class="n">arquivo</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+    <span class="p">)</span>
+    <span class="n">colunas_com_tipos_diferentes</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">col</span>
+        <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">colunas_comuns</span>
+        <span class="k">if</span> <span class="n">excel_modelo</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">dtype</span> <span class="o">!=</span> <span class="n">arquivo</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">dtype</span>
+    <span class="p">]</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">colunas_com_tipos_diferentes</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">colunas_com_tipos_diferentes</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div><p>Caso qualquer validação seja identificada como invalido, ele marca o arquivo como invalido.</p>
 
 
 
