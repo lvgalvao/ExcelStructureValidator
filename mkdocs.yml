@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Excel Structure Validator
+theme:
+  name: material
+  palette:
+    primary: deep blue
+  language: pt
+
+repo_name: "lvgalvao/ExcelStructureValidator"
+repo_url: "https://github.com/lvgalvao/ExcelStructureValidator"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
