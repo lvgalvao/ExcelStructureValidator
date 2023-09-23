@@ -4,9 +4,13 @@
 
 O Excel Structure Validator é um projeto Python destinado a validar a estrutura de arquivos Excel. Ele compara arquivos Excel recebidos com um modelo pré-definido para assegurar que os dados cumpram com os padrões estabelecidos. O projeto é ideal para cenários onde a qualidade e a consistência dos dados são críticas para análises subsequentes, como importações para o Power BI, análises de dados, entre outros.
 
+## Case do projeto
+
+[Linkedin](https://www.linkedin.com/posts/lucianovasconcelosf_valida%C3%A7%C3%A3o-automatica-de-arquivos-excel-activity-7104481940606509056-fXly?utm_source=share&utm_medium=member_desktop)
+
 ## Documentação do projeto
 
-https://lvgalvao.github.io/ExcelStructureValidator/
+[Documentação](https://lvgalvao.github.io/ExcelStructureValidator/)
 
 ## Funcionalidades
 
