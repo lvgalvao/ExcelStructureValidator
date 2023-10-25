@@ -19,6 +19,7 @@ pymdown-extensions = "^10.3"
 mkdocs-material = "^9.4.1"
 pygments = "^2.16.1"
 mkdocstrings-python = "^1.7.0"
+pytest = "^7.4.3"
 
 
 [build-system]
